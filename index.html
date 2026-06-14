@@ -1,1 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glow Perfumaria</title>
 
+<style>
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#0f0f0f;
+color:white;
+}
+
+header{
+background:linear-gradient(90deg,#000,#b8860b);
+padding:40px;
+text-align:center;
+}
+
+header h1{
+font-size:50px;
+margin:0;
+}
+
+header p{
+font-size:20px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
+}
+
+.produtos{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:#1b1b1b;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 0 20px rgba(255,215,0,0.15);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:320px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+text-align:center;
+}
+
+.card h2{
+margin-top:0;
+color:#ffd700;
+}
+
+.preco{
+font-size:28px;
+font-weight:bold;
+margin:15px 0;
+}
+
+.botao{
+display:inline-block;
+background:#ffd700;
+color:#000;
+padding:12px 25px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.pix{
+background:#111;
+padding:40px;
+margin-top:60px;
+border-radius:20px;
+text-align:center;
+}
+
+footer{
+margin-top:60px;
+background:#000;
+padding:30px;
+text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Glow Perfumaria</h1>
+
+<p>Perfumes e Body Splash que realçam sua beleza ✨</p>
+
+</header>
+
+<div class="container">
+
+<div class="produtos">
+
+<div class="card">
+
+<img src="Glow_Perfumaria_Com_Fotos/obsessed-exclusive-pink.jpg.jpeg">
+
+<div class="card-content">
+
+<h2>Obsessed Exclusive Pink</h2>
+
+<p>Body Splash</p>
+
+<div class="preco">
+
+R$ 59,90
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<img src="Glow_Perfumaria_Com_Fotos/obsessed-gold.jpg.jpeg">
+
+<div class="card-content">
+
+<h2>Obsessed Gold</h2>
+
+<p>Body Splash</p>
+
+<div class="preco">
+
+R$ 59,90
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<img src="Glow_Perfumaria_Com_Fotos/vf-golden.jpg.jpeg">
+
+<div class="card-content">
+
+<h2>VF Golden</h2>
+
+<p>Perfume 75ml</p>
+
+<div class="preco">
+
+R$ 129,90
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<img src="Glow_Perfumaria_Com_Fotos/vf-golden-body.jpg.jpeg">
+
+<div class="card-content">
+
+<h2>VF Golden Body Splash</h2>
+
+<p>Body Splash</p>
+
+<div class="preco">
+
+R$ 59,90
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="pix">
+
+<h2>💳 Compre Aqui</h2>
+
+<h3>Pix</h3>
+
+<p style="font-size:28px">
+
+8396147122
+
+</p>
+
+<p>
+
+Titular:
+
+<br><br>
+
+<strong>
+
+Vitoria Graziella da Silva Barbosa
+
+</strong>
+
+</p>
+
+<button class="botao"
+
+onclick="navigator.clipboard.writeText('8396147122'); alert('Chave Pix copiada!')">
+
+Copiar Chave Pix
+
+</button>
+
+<br><br>
+
+<a class="botao"
+
+href="https://wa.me/5583993106823"
+
+target="_blank">
+
+Falar no WhatsApp
+
+</a>
+
+</div>
+
+</div>
+
+<footer>
+
+<h3>Glow Perfumaria ✨</h3>
+
+<p>
+
+Perfumes que transformam momentos em lembranças.
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
